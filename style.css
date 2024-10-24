@@ -1,0 +1,28 @@
+body{ 
+    background-color: blue(238,16,0);
+}
+footer{
+    background-color: blueviolet;
+    color: azure;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    text-align: center;
+    font-size: 0.6rem;
+    margin: 0.5rem;
+
+}
+#container{
+    display:flex
+
+}
+.cartao{
+    margin: 1rem 1rem;
+    background-color: blue;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33%-6rem);
+
+}
